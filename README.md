@@ -27,3 +27,5 @@ If there is not enough concurrency, Passenger fails to crash. If Apache has MaxC
 
 I have replicated the problem with this setup on my 17" Macbook pro with 8GB of ram and last year's Sandy Bridge 2.3 GHz i7. We also replicated the same problem with a different setup but with similar load characteristics on our Mac Pro server (last year's model).
 
+When using https://github.com/FooBarWidget/passenger/commit/6305b36164907d66860e16544f5bca93863f588a, the same problem occurs under the same circumstances.
+
